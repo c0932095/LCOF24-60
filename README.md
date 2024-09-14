@@ -1,3 +1,3 @@
 # LCOF24-60
 
-Term Project
+Term Project for Front End
