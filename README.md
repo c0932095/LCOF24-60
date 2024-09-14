@@ -1,3 +1,4 @@
 # LCOF24-60
 
-Term Project for Front End
+CSD0 1103 Section OTT01
+
