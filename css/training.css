@@ -1,0 +1,80 @@
+/* Styles for training.html */
+
+/* Base Table Styles (Mobile-First) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: 'Roboto Slab', serif;
+    text-align: left;
+}
+
+caption {
+    font-size: 1.2rem; /* Smaller caption font for mobile */
+    font-family: 'Francois One', sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    font-size: 0.9rem; /* Smaller font size for mobile */
+    color: #000;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-family: 'Francois One', sans-serif;
+}
+
+.alt-row {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+/* img {
+    display: block;
+    margin: 0 auto;
+    max-width: 40px; 
+} */
+
+/* Media Query: Tablet View (Min width: 768px) */
+@media screen and (min-width: 630px) {
+    caption {
+        font-size: 1.5rem; /* Larger caption font for tablets */
+    }
+
+    th, td {
+        padding: 12px; /* Increased padding for better spacing */
+        font-size: 1rem; /* Larger font for readability */
+    }
+
+    /* img {
+        max-width: 50px;
+    } */
+}
+
+/* Media Query: Desktop View (Min width: 1024px) */
+@media screen and (min-width: 1015px) {
+    table {
+        margin: 30px 0; /* More margin for desktop layout */
+    }
+
+    caption {
+        font-size: 1.7rem; /* Larger caption font for desktop */
+    }
+
+    th, td {
+        padding: 15px; /* Generous padding for spacious layout */
+        font-size: 1.1rem; /* Larger text for desktop */
+    }
+
+    /* img {
+        max-width: 60px;
+    } */
+}

@@ -1,0 +1,94 @@
+/* Styles for contact.html */
+
+/* Base Styles (Mobile-First) */
+form {
+    max-width: 100%; /* Full width for mobile */
+    margin: 20px 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* Fieldset and Legend */
+fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+legend {
+    font-family: 'Francois One', sans-serif;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+/* Input, Select, Textarea */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+input, select, textarea, button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.9rem;
+}
+
+/* Buttons */
+button {
+    width: auto;
+    padding: 10px 20px;
+    font-family: 'Francois One', sans-serif;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Tablet Styles (Min width: 630px) */
+@media (min-width: 630px) {
+    form {
+        max-width: 90%; /* Narrower width for tablets */
+        margin: 30px auto;
+        padding: 20px;
+    }
+
+    label {
+        font-size: 1rem; /* Slightly larger labels */
+    }
+
+    input, select, textarea, button {
+        font-size: 1rem; /* Larger font for inputs */
+    }
+}
+
+/* Desktop Styles (Min width: 1015px) */
+@media (min-width: 1015px) {
+    form {
+        max-width: 600px; /* Centered, narrower form for desktop */
+        padding: 30px;
+    }
+
+    label {
+        font-size: 1.1rem; /* Bigger, clearer labels */
+    }
+
+    input, select, textarea, button {
+        font-size: 1.1rem; /* Larger font for readability */
+    }
+
+    button {
+        padding: 12px 25px; /* Bigger buttons for desktop */
+    }
+}
