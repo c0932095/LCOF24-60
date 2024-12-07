@@ -36,7 +36,7 @@
 
         <!-- Use the header area for the website name or logo -->
         <header id="ffc-logo">
-            <a href="index.html"><img src="images/patio-logo.png" alt="PatioBlaze logo" height="120" width="197"></a>
+            <a href="index.html"><img src="images/patio-logo.png" alt="PatioBlaze logo" class="logo-image"></a>
         </header>
 
         <!-- Use the nav area to add hyperlinks to other pages within the website -->
@@ -55,29 +55,25 @@
 
         <!-- Use the main area to add the main content of the webpage -->
         <main>
-            <aside>
-                <p>Meet our Team Members</p>
-            </aside>
-
-            <figure>
-                <img src="images/guitar-instructor.jpg" alt="member 1">
-                <figcaption>Jack Williams, CEO</figcaption>
-            </figure>
-
-            <figure>
-                <img src="images/electric-guitar-instructor.jpg" alt="member 2">
-                <figcaption>Jose Ramirez, MD</figcaption>
-            </figure>
-
-            <figure>
-                <img src="images/piano-instructor.jpg" alt="member 3">
-                <figcaption>Elisa Petrov, Sales</figcaption>
-            </figure>
-
-            <figure>
-                <img src="images/violin-instructor.jpg" alt="member 4">
-                <figcaption>Maya Hill, Finance</figcaption>
-            </figure>
+            <div>
+                <section class="product-features">
+                    <h2>Our Team</h2>
+                    <div class="features-container">
+                        <div class="feature-item">
+                            <img src="images/team1.jpg" alt="team 1" height="600px" width="100%">
+                            <p>Josh, Owner</p>
+                        </div>
+                        <div class="feature-item">
+                            <img src="images/team2.jpg" alt="team 2" height="600px" width="100%">
+                            <p>Maddie, Sales</p>
+                        </div>
+                        <div class="feature-item">
+                            <img src="images/team3.jpg" alt="team 3" height="600px" width="100%">
+                            <p>Bob, Marketing</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
         </main>
 
         <!-- Use the footer area to add webpage footer content -->
@@ -88,8 +84,7 @@
         </footer>
 
     </div>
-
     <script src="scripts/script.js"></script>
-
 </body>
+
 </html>
