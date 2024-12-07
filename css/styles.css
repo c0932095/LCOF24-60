@@ -40,6 +40,10 @@ video {
   display: block;
 }
 
+#banner-head{
+  display: none;
+}
+
 /* Style rule for box sizing applies to all elements */
 * {
   box-sizing: border-box;
@@ -361,6 +365,10 @@ footer p a {
     margin-bottom: 1%;
   }
 
+  #banner-head{
+    display: block;
+  }
+
   nav ul {
     list-style-type: none;
     text-align: center;
@@ -522,6 +530,7 @@ footer p a {
 
   .banner-img {
     display: block;
+    object-fit: cover;
   }
 
   nav ul {
@@ -534,6 +543,10 @@ footer p a {
 
   .features-container {
     flex-direction: row;
+  }
+
+  #banner-head{
+    display: block;
   }
 
   nav li a {
